@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using HotelListing.API.Data;
 using HotelListing.API.IRepository;
 using AutoMapper;
 using HotelListing.API.DTOs.Hotel;
+using HotelListing.API.Data;
 
 namespace HotelListing.API.Controllers
 {
